@@ -1,10 +1,43 @@
-- 👋 Hi, I’m @vaishalizilpe, I work as Analytics Lead at Apple
-- 👀 I’m interested in joining coding challenges
-- 🌱 I’m currently learning Apache Spark and Snowfalke
-- 💞️ I’m looking to collaborate on coding projects
-- 📫 Reach me at vaishali.zilpe@gmail.com
+# Hi, I'm Vaishali
 
-<!---
-vaishalizilpe/vaishalizilpe is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+Analytics Engineer specializing in building production-grade data systems that power decision making across marketing, finance, and sustainability domains.
+
+I design clean data models, reliable metric layers, and automated validation frameworks that reduce reporting risk and improve trust in data.
+
+---
+
+## Core Strengths
+- Data modeling + warehouse design
+- dbt transformation architecture
+- Metric definition systems
+- Data quality frameworks
+- SQL + Python validation layers
+- Stakeholder-ready analytics outputs
+
+---
+
+## Featured Projects
+
+### Finance Metrics Validator
+Validation engine that detects inconsistencies in financial KPIs before reporting. Designed to prevent downstream decision errors and reporting discrepancies.
+
+### SF311 Analysis
+End-to-end analysis pipeline transforming public city data into decision-ready insights and dashboards.
+
+---
+
+## Engineering Principles I Follow
+- Metrics must be reproducible
+- Data must be testable
+- Pipelines must be observable
+- Assumptions must be documented
+
+---
+
+## Tools
+Python · SQL · dbt · Snowflake · Postgres · Tableau · LLM tooling
+
+---
+
+## Currently Building
+Systems that combine analytics engineering + AI to make data accessible to decision makers.
