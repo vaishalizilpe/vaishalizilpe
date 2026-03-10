@@ -1,43 +1,54 @@
-# Hi, I'm Vaishali
+# Hi, I'm Vaishali 👋
 
-Analytics Engineer specializing in building production-grade data systems that power decision making across marketing, finance, and sustainability domains.
+Data Engineer and Analytics Lead with 11+ years of experience — 
+currently building AI-powered data tools using Python, Claude API, 
+and live data sources.
 
-I design clean data models, reliable metric layers, and automated validation frameworks that reduce reporting risk and improve trust in data.
-
----
-
-## Core Strengths
-- Data modeling + warehouse design
-- dbt transformation architecture
-- Metric definition systems
-- Data quality frameworks
-- SQL + Python validation layers
-- Stakeholder-ready analytics outputs
+I specialize in turning complex data systems into intelligent, 
+self-service solutions that answer real business questions.
 
 ---
 
-## Featured Projects
+## 🤖 AI Engineering Projects
 
-### Finance Metrics Validator
-Validation engine that detects inconsistencies in financial KPIs before reporting. Designed to prevent downstream decision errors and reporting discrepancies.
+### 🏆 AI Skills & Salary Advisor
+Live job market analyzer that fetches real 2026 job postings, 
+extracts in-demand skills, and uses Claude AI to give personalized 
+career advice.
+**Stack:** Python · Claude API · Adzuna Jobs API · REST APIs
+👉 [github.com/vaishalizilpe/ai-skills-salary-advisor](https://github.com/vaishalizilpe/ai-skills-salary-advisor)
 
-### SF311 Analysis
-End-to-end analysis pipeline transforming public city data into decision-ready insights and dashboards.
+### 🐍 Python Data Explorer
+Data analysis with pandas — missing value detection, survival 
+analysis, GROUP BY insights on real datasets.
+**Stack:** Python · pandas
+👉 [github.com/vaishalizilpe/python-data-explorer](https://github.com/vaishalizilpe/python-data-explorer)
+
+### 💰 Finance Metrics Validator
+SQL validation engine that detects KPI inconsistencies before 
+they reach reporting. CI-gated with DuckDB reconciliation.
+**Stack:** Python · SQL · DuckDB
+👉 [github.com/vaishalizilpe/finance-metrics-validator](https://github.com/vaishalizilpe/finance-metrics-validator)
 
 ---
 
-## Engineering Principles I Follow
-- Metrics must be reproducible
-- Data must be testable
-- Pipelines must be observable
-- Assumptions must be documented
+## 🛠️ Tech Stack
+
+**AI & LLM:** Claude API · Anthropic SDK · Prompt Engineering  
+**Data Engineering:** dbt · Airflow · Snowflake · GCP · Postgres  
+**Programming:** Python · SQL  
+**BI & Visualization:** Tableau · Alteryx  
 
 ---
 
-## Tools
-Python · SQL · dbt · Snowflake · Postgres · Tableau · LLM tooling
+## 📈 Currently Building
+
+- SEC Earnings Summarizer — AI reads 10-K filings, extracts key insights
+- Text-to-SQL Chatbot — ask business questions, get SQL + results
+- AI Data Quality Monitor — LLM-generated pipeline alerts
 
 ---
 
-## Currently Building
-Systems that combine analytics engineering + AI to make data accessible to decision makers.
+## 📫 Let's Connect
+
+[LinkedIn](https://www.linkedin.com/in/vaishalizilpe)
