@@ -36,4 +36,24 @@ runs it against a real database, and explains the answer.
 
 ---
 
-### ✅ Finance Metrics Va
+### ✅ Finance Metrics Validator
+Automates KPI reconciliation with in-memory SQL validation.
+CI-gated on every push — zero manual QA required.
+
+**Stack:** Python · SQL · DuckDB · GitHub Actions
+👉 [GitHub](https://github.com/vaishalizilpe/finance-metrics-validator)
+
+---
+
+## 🛠️ Stack
+
+**AI:** Claude API · Anthropic SDK · Prompt Engineering · LLM Integration
+**Data Engineering:** dbt · Snowflake · GCP · BigQuery · Postgres · DuckDB
+**Languages:** Python · SQL
+**BI:** Tableau · Streamlit · Alteryx
+
+---
+
+## 📫 Connect
+
+[LinkedIn](https://www.linkedin.com/in/vaishalizilpe) · vaishali.zilpe@gmail.com
