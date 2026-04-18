@@ -56,4 +56,4 @@ CI-gated on every push — zero manual QA required.
 
 ## 📫 Connect
 
-[LinkedIn](https://www.linkedin.com/in/vaishalizilpe) · vaishali.zilpe@gmail.com
+[LinkedIn](https://www.linkedin.com/in/vaishalizilpe)
