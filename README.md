@@ -1,61 +1,39 @@
-# Hi, I'm Vaishali 👋
-Data Engineer and Analytics Lead with 11+ years of experience — 
-currently building AI-powered data tools using Python, Claude API, 
-and live data sources.
+# Hi, I'm Vaishali
 
-I specialize in turning complex data systems into intelligent, 
-self-service solutions that answer real business questions.
+Analytics Engineer and AI builder. 11+ years of experience.
+Currently at Apple — first analytics hire on the ESCI team,
+building production AI systems with Claude API, dbt, and Snowflake.
 
 ---
 
-## 🤖 AI Engineering Projects
+## 🤖 AI Projects — all live
 
-### 🏆 AI Career Advisor
-Live job market analyzer that fetches real 2026 job postings, uses 
-Claude AI to extract in-demand skills dynamically, and gives 
-personalized career advice via a deployed web app.
+### 🟠 deLOD — Tableau Calculation Coach
+Claude-powered app that generates, explains, and debugs Tableau
+calculated fields from plain English. 3 modes. 5 domain schemas.
+Includes Tableau Public schema import and CSV field inference.
 
-**Stack:** Python · Claude API · Adzuna Jobs API · Streamlit · DuckDB  
-👉 [View Project](https://github.com/vaishalizilpe/ai-skills-salary-advisor) · [Live App](https://ai-skills-career-advisor.streamlit.app)
-
-### 🗄️ Text-to-SQL Job Market Chatbot
-Ask any question about job market data in plain English. Claude AI 
-converts it to SQL, runs it against a real database, and explains 
-what it found — all in one shot.
-
-**Stack:** Python · Claude API · DuckDB · Streamlit  
-👉 [View Project](https://github.com/vaishalizilpe/text-to-sql-chatbot)
-
-### 🐍 Python Data Explorer
-Data analysis with pandas — missing value detection, survival 
-analysis, GROUP BY insights on real datasets.
-
-**Stack:** Python · pandas  
-👉 [View Project](https://github.com/vaishalizilpe/python-data-explorer)
-
-### 💰 Finance Metrics Validator
-SQL validation engine that detects KPI inconsistencies before 
-they reach reporting. CI-gated with DuckDB reconciliation.
-
-**Stack:** Python · SQL · DuckDB  
-👉 [View Project](https://github.com/vaishalizilpe/finance-metrics-validator)
+**Stack:** Python · Claude API · Streamlit · Prompt Engineering
+👉 [GitHub](https://github.com/vaishalizilpe/deLOD) · [Live App](https://delodbyvz.streamlit.app)
 
 ---
 
-## 🛠️ Tech Stack
-**AI & LLM:** Claude API · Anthropic SDK · Prompt Engineering  
-**Data Engineering:** dbt · Airflow · Snowflake · GCP · Postgres  
-**Programming:** Python · SQL  
-**BI & Visualization:** Tableau · Alteryx · Streamlit  
+### 🎯 AI Career Advisor
+Fetches real job postings, extracts in-demand skills via NLP,
+calls Claude for personalized career gap analysis — 500+ postings per session.
+
+**Stack:** Python · Claude API · Adzuna API · Streamlit · DuckDB
+👉 [GitHub](https://github.com/vaishalizilpe/ai-skills-salary-advisor) · [Live App](https://ai-skills-career-advisor.streamlit.app)
 
 ---
 
-## 📈 Currently Building
-- SEC Earnings Summarizer — AI reads 10-K filings, extracts key insights
-- AI Data Quality Monitor — LLM-generated pipeline alerts
-- Resume Assassin — Claude agent that tailors resumes to job descriptions
+### 💬 Text-to-SQL Job Market Chatbot
+Ask any question in plain English. Claude converts it to SQL,
+runs it against a real database, and explains the answer.
+
+**Stack:** Python · Claude API · DuckDB · Streamlit
+👉 [GitHub](https://github.com/vaishalizilpe/text-to-sql-chatbot)
 
 ---
 
-## 📫 Let's Connect
-[LinkedIn](https://www.linkedin.com/in/vaishalizilpe)
+### ✅ Finance Metrics Va
