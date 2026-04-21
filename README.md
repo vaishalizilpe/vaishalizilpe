@@ -44,6 +44,23 @@ CI-gated on every push — zero manual QA required.
 👉 [GitHub](https://github.com/vaishalizilpe/finance-metrics-validator)
 
 ---
+## Core Strengths
+
+Data modeling + warehouse design
+dbt transformation architecture
+Metric definition and validation systems
+SQL + Python data quality frameworks
+Claude Code skill development
+Stakeholder-ready analytics outputs
+
+
+Engineering Principles
+
+Metrics must be reproducible
+Data must be testable
+Pipelines must be observable
+Assumptions must be documented
+Tools must work from the terminal
 
 ## 🛠️ Stack
 
