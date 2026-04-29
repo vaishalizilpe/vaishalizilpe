@@ -2,7 +2,7 @@
 
 Analytics Engineer and AI builder. 11+ years of experience.
 Currently at Apple — first analytics hire on the ESCI team,
-building production AI systems with Claude API, dbt, and Snowflake.
+building production AI systems with  python, dbt, and Snowflake.
 
 ---
 
