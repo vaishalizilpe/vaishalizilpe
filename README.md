@@ -16,8 +16,8 @@ feeds the next via a shared JSON schema.
 
 - **A/B Test Interpreter** — two-proportion z-test, confidence intervals,
   SRM detection, post-hoc power, Claude ship/don't-ship verdict
-- **Root Cause Analysis** — structured RCA with Claude reasoning
-- **Metric Trade-offs** — trade-off analysis with Claude synthesis
+- **Root Cause Analysis** — structured RCA with AI reasoning
+- **Metric Trade-offs** — trade-off analysis with AI synthesis
 
 **Stack:** Python · Claude API · Streamlit · SciPy · Plotly
 👉 [GitHub](https://github.com/vaishalizilpe/analytics-ai-toolkit) · [Live App](https://analytics-ai-toolkit-vz.streamlit.app)
@@ -46,7 +46,7 @@ ending with something you actually built. No link dumps, no paywalls.
 
 ### 🎯 AI Career Advisor
 Fetches real job postings, extracts in-demand skills via NLP,
-calls Claude for personalized career gap analysis — 500+ postings per session.
+calls AI model for personalized career gap analysis — 500+ postings per session.
 
 **Stack:** Python · Claude API · Adzuna API · Streamlit · DuckDB
 👉 [GitHub](https://github.com/vaishalizilpe/ai-skills-salary-advisor) · [Live App](https://ai-skills-career-advisor.streamlit.app)
@@ -54,7 +54,7 @@ calls Claude for personalized career gap analysis — 500+ postings per session.
 ---
 
 ### 💬 Text-to-SQL Job Market Chatbot
-Ask any question in plain English. Claude converts it to SQL,
+Ask any question in plain English. AI model converts it to SQL,
 runs it against a real database, and explains the answer.
 
 **Stack:** Python · Claude API · DuckDB · Streamlit
