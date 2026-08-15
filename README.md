@@ -9,19 +9,24 @@ building production AI systems with  python, dbt, and Snowflake.
 ## 🤖 AI Projects — all live
 
 ### 📊 Analytics AI Toolkit
-Three-tool AI reasoning suite for data teams. Each tool runs
-statistical analysis or structured reasoning, then calls Claude
-to generate a plain-English recommendation. Output of one tool
-feeds the next via a shared JSON schema.
+An AI reasoning suite for experimentation that grades its own output.
+Deterministic statistics are computed first, then Claude interprets the
+verified numbers, so it never invents a statistic. Four tools, connected by
+a shared JSON schema so one investigation flows into the next.
 
-- **A/B Test Interpreter** — two-proportion z-test, confidence intervals,
-  SRM detection, post-hoc power, Claude ship/don't-ship verdict
-- **Root Cause Analysis** — structured RCA with AI reasoning
-- **Metric Trade-offs** — trade-off analysis with AI synthesis
+- **A/B Test Interpreter:** z-test with Fisher's exact fallback, Welch's t for
+  continuous metrics, SRM detection, Bayesian and Benjamini-Hochberg, and a
+  ship or hold verdict
+- **Sample Size Calculator:** power analysis, MDE curves, test-duration estimate
+- **Root Cause Analysis:** hypothesis matrix, diagnostic SQL, ranked next steps
+- **Metric Trade-offs:** second-order effects, guardrails, composite metric
 
-**Stack:** Python · Claude API · Streamlit · SciPy · Plotly
+**What sets it apart:** a graded eval and error-analysis loop scores every tool's
+output (deterministic checks plus an LLM judge) and gates CI. Model-agnostic across
+Claude, OpenAI, DeepSeek, and Gemini with one env var. 73 unit tests, green on every push.
+
+**Stack:** Python · SciPy · Claude API · Streamlit · Plotly · GitHub Actions
 👉 [GitHub](https://github.com/vaishalizilpe/analytics-ai-toolkit) · [Live App](https://analytics-ai-toolkit-vz.streamlit.app)
-
 ---
 
 ### 🟠 deLOD — Tableau Calculation Coach
