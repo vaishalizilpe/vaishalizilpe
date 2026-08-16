@@ -1,8 +1,8 @@
 # Hi, I'm Vaishali
 
-Analytics Engineer and AI builder. 11+ years of experience.
+Analytics Engineer and AI builder. 12+ years of experience.
 Currently at Apple, first analytics hire on the ESCI team,
-building production AI systems with Python, dbt, and Snowflake.
+building production AI systems with Python, dbt, Airflow and Snowflake.
 
 ---
 
