@@ -1,12 +1,12 @@
 # Hi, I'm Vaishali
 
 Analytics Engineer and AI builder. 11+ years of experience.
-Currently at Apple — first analytics hire on the ESCI team,
-building production AI systems with  python, dbt, and Snowflake.
+Currently at Apple, first analytics hire on the ESCI team,
+building production AI systems with Python, dbt, and Snowflake.
 
 ---
 
-## 🤖 AI Projects — all live
+## 🤖 AI Projects
 
 ### 📊 Analytics AI Toolkit
 An AI reasoning suite for experimentation that grades its own output.
@@ -27,9 +27,29 @@ Claude, OpenAI, DeepSeek, and Gemini with one env var. 73 unit tests, green on e
 
 **Stack:** Python · SciPy · Claude API · Streamlit · Plotly · GitHub Actions
 👉 [GitHub](https://github.com/vaishalizilpe/analytics-ai-toolkit) · [Live App](https://analytics-ai-toolkit-vz.streamlit.app)
+
 ---
 
-### 🟠 deLOD — Tableau Calculation Coach
+### 🔍 Airflow DAG Auditor
+An Airflow DAG that audits other Airflow deployments. Reads DAG, run, and task
+history through the Airflow 3 REST API and ranks the pipelines most likely to be
+causing problems.
+
+**What sets it apart:** it finds the failures nothing else reports. A task that
+fails regularly but passes on retry leaves the DAG green, so no dashboard shows
+it and no alert fires. The auditor reads archived attempt history and surfaces
+those runs specifically. It ships with a seeder that provisions a throwaway
+Airflow and generates three weeks of real run history from fixtures with
+documented ground truth, so every figure in the report can be checked by hand.
+
+**Stack:** Python · Airflow 3 · REST API · pytest
+👉 [GitHub](https://github.com/vaishalizilpe/airflow-dag-auditor)
+
+*v0: flakiness detection working end to end. Runtime drift and orphan detection next.*
+
+---
+
+### 🟠 deLOD: Tableau Calculation Coach
 Claude-powered app that generates, explains, and debugs Tableau
 calculated fields from plain English. 3 modes. 5 domain schemas.
 Includes Tableau Public schema import and CSV field inference.
@@ -41,7 +61,7 @@ Includes Tableau Public schema import and CSV field inference.
 
 ### 🎓 Zero to PhD
 Give it a topic and a number of days. Get a structured, day-by-day
-learning plan built entirely on free resources — Harvard/MIT quality,
+learning plan built entirely on free resources at Harvard/MIT quality,
 ending with something you actually built. No link dumps, no paywalls.
 
 **Stack:** Claude Code · Markdown
@@ -51,7 +71,7 @@ ending with something you actually built. No link dumps, no paywalls.
 
 ### 🎯 AI Career Advisor
 Fetches real job postings, extracts in-demand skills via NLP,
-calls AI model for personalized career gap analysis — 500+ postings per session.
+calls AI model for personalized career gap analysis across 500+ postings per session.
 
 **Stack:** Python · Claude API · Adzuna API · Streamlit · DuckDB
 👉 [GitHub](https://github.com/vaishalizilpe/ai-skills-salary-advisor) · [Live App](https://ai-skills-career-advisor.streamlit.app)
@@ -69,7 +89,7 @@ runs it against a real database, and explains the answer.
 
 ### ✅ Finance Metrics Validator
 Automates KPI reconciliation with in-memory SQL validation.
-CI-gated on every push — zero manual QA required.
+CI-gated on every push, so no manual QA is required.
 
 **Stack:** Python · SQL · DuckDB · GitHub Actions
 👉 [GitHub](https://github.com/vaishalizilpe/finance-metrics-validator)
