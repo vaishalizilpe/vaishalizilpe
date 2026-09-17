@@ -8,6 +8,29 @@ building production AI systems with Python, dbt, Airflow and Snowflake.
 
 ## 🤖 AI Projects
 
+### 📄 SEC Filings RAG, and the harness that caught it lying
+**My first retrieval metric reported 4 out of 4. The system was actually at 1 out of 4.**
+
+It scored whether retrieval reached the right *file*, not the right *passage*. Pinterest's
+10-K is 540 chunks and every question contains the word "Pinterest", so landing some chunk
+from the right file was close to guaranteed. The test could barely fail.
+
+A retrieval pipeline over SEC filings for Pinterest, Snap, Reddit and Meta, rebuilt from
+EDGAR by a fetch script so every number is reproducible. The retriever is ordinary TF-IDF.
+The evaluation harness around it is the point.
+
+**What sets it apart:** eleven findings logged in the order they happened, including six of
+my own predictions recorded as wrong with the measurement that disproved each one. An
+ablation across all 16 feature combinations found one of my own fixes was causing
+wrong-company answers, and it was removed. Hybrid retrieval, 80% lexical and 20% semantic,
+shipped only after proving pure embeddings are *worse* here: an exact figure like
+"$2.2 billion" is not a semantic concept and falls from rank 1 to rank 33.
+
+**Stack:** Python · scikit-learn · sentence-transformers · SEC EDGAR API
+👉 [GitHub](https://github.com/vaishalizilpe/sec-filings) · [Findings log](https://github.com/vaishalizilpe/sec-filings/blob/master/FINDINGS.md)
+
+---
+
 ### 📊 Analytics AI Toolkit
 An AI reasoning suite for experimentation that grades its own output.
 Deterministic statistics are computed first, then Claude interprets the
